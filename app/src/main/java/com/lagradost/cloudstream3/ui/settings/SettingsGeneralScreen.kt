@@ -245,10 +245,10 @@ object SettingsGeneralScreen : SearchableSettings {
                 preferenceItems = persistentListOf(
                     Preference.PreferenceItem.TextPreference(
                         title = stringResource(R.string.github),
-                        subtitle = "https://github.com/recloudstream/cloudstream",
+                        subtitle = "https://github.com/bamelankur/Super-Play",
                         icon = painterResource(R.drawable.ic_github_logo),
                         onClick = {
-                            CloudStreamApp.openBrowser("https://github.com/recloudstream/cloudstream")
+                            CloudStreamApp.openBrowser("https://github.com/bamelankur/Super-Play")
                         }
                     ),
                     Preference.PreferenceItem.TextPreference(
@@ -260,19 +260,19 @@ object SettingsGeneralScreen : SearchableSettings {
                         }
                     ),
                     Preference.PreferenceItem.TextPreference(
-                        title = stringResource(R.string.discord),
-                        subtitle = "https://discord.gg/5Hus6fM",
+                        title = "Support & feedback",
+                        subtitle = "https://github.com/bamelankur/Super-Play/issues",
                         icon = painterResource(R.drawable.ic_baseline_discord_24),
                         onClick = {
-                            CloudStreamApp.openBrowser("https://discord.gg/5Hus6fM")
+                            CloudStreamApp.openBrowser("https://github.com/bamelankur/Super-Play/issues")
                         }
                     ),
                     Preference.PreferenceItem.TextPreference(
-                        title = stringResource(R.string.cs3wiki),
-                        subtitle = "https://cloudstream.miraheze.org/",
+                        title = "Super Play Guide",
+                        subtitle = "https://github.com/bamelankur/Super-Play#readme",
                         icon = painterResource(R.drawable.description_24px),
                         onClick = {
-                            CloudStreamApp.openBrowser("https://cloudstream.miraheze.org/")
+                            CloudStreamApp.openBrowser("https://github.com/bamelankur/Super-Play#readme")
                         }
                     ),
                 )
